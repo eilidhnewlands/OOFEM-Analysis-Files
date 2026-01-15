@@ -1,0 +1,43 @@
+#2D Mesh input
+#t3d -X -d 0.005 -p 8 -i mesh.in -o mesh.out
+
+#Concrete
+vertex 1 xyz 0.0 0.0 0.0 size def 
+vertex 2 xyz 0.05 0.0 0.0 size def 
+vertex 3 xyz 0.05 0.2 0.0 size def 
+vertex 4 xyz 0.0 0.2 0.0 size def 
+
+curve 1 order 2 vertex 1 2 size def 
+curve 2 order 2 vertex 2 3 size def 
+curve 3 order 2 vertex 3 4 size def 
+curve 4 order 2 vertex 4 1 size def 
+
+surface 1 curve 1 2 3 4 size def 
+
+#FRP
+vertex 5 xyz 0.05645 0.0 0.0 size def 
+vertex 6 xyz 0.05645 0.075 0.0 size def
+vertex 7 xyz 0.05645 0.125 0.0 size def
+vertex 8 xyz 0.05645 0.2 0.0 size def 
+
+curve 5 order 2 vertex 2 5 size def 
+curve 6 order 2 vertex 5 6 size def 
+curve 7 order 2 vertex 6 7 size def 
+curve 8 order 2 vertex 7 8 size def 
+curve 9 order 2 vertex 8 3 size def 
+
+
+#surface 2 curve 2 5 6 7 8 9 size def 
+Patch 2 normal 0 0 1 boundary curve -2 5 6 7 8 9 size def
+
+#Indicator
+
+vertex 9 xyz 0.06645 0.075 0.0 size def
+vertex 10 xyz 0.06645 0.125 0.0 size def
+
+
+curve 10 order 2 vertex 6 9 size def 
+curve 11 order 2 vertex 9 10 size def 
+curve 12 order 2 vertex 10 7 size def 
+
+surface 3 curve 10 11 12 7 size def
