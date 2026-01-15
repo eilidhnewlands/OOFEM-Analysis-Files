@@ -1,0 +1,3880 @@
+############################################################## www.oofem.org ###
+  ____  ____  __________  ___
+ / __ \/ __ \/ __/ __/  |/  /___  _______
+/ /_/ / /_/ / _// _// /|_/ // _ \/ __/ _ `
+\____/\____/_/ /___/_/  /_(_)___/_/  \_, /  OOFEM ver. 2.6
+                                    /___/   Copyright (C) 1994-2025 Borek Patzak
+################################################################################
+Git URL:unknown,
+    branch:unknown, hash:unknown
+
+
+Starting analysis on: Mon Jan 12 11:03:10 2026
+
+CFRP confined concrete cylinder
+
+
+Output for time 0.000e+00, solution step number 1
+Reached load level :             1.000000 in 0 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -0.00000000e+00
+Node        1340 (    1340):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node        1341 (    1341):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  0.0000e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  0.0000e+00    [bc-id: 1]
+	Node        1 iDof  3 reaction  0.0000e+00    [bc-id: 1]
+	Node       17 iDof  1 reaction  0.0000e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction  0.0000e+00    [bc-id: 1]
+	Node       17 iDof  3 reaction  0.0000e+00    [bc-id: 2]
+
+User time consumed by solution step 1: 0.977 [s]
+
+
+
+Output for time 1.000e+00, solution step number 2
+Reached load level :             1.000000 in 9 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -5.98006645e-05
+Node        1340 (    1340):
+  dof 1   d  3.91982920e-06
+  dof 2   d  1.47562395e-06
+  dof 3   d -2.98678310e-05
+Node        1341 (    1341):
+  dof 1   d  4.11609683e-06
+  dof 2   d  9.00834921e-07
+  dof 3   d -2.98705725e-05
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.0422e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.5007e+00    [bc-id: 1]
+	Node        1 iDof  3 reaction  7.6455e+04    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.9482e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.4826e+00    [bc-id: 1]
+	Node       17 iDof  3 reaction -7.6455e+04    [bc-id: 2]
+
+User time consumed by solution step 2: 12.983 [s]
+
+
+
+Output for time 2.000e+00, solution step number 3
+Reached load level :             1.000000 in 14 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.19601329e-04
+Node        1340 (    1340):
+  dof 1   d  9.45304499e-06
+  dof 2   d  3.56477493e-06
+  dof 3   d -5.97363953e-05
+Node        1341 (    1341):
+  dof 1   d  9.90543977e-06
+  dof 2   d  2.17021556e-06
+  dof 3   d -5.97427302e-05
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.1885e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  5.1335e+00    [bc-id: 1]
+	Node        1 iDof  3 reaction  1.4054e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.1082e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -5.1378e+00    [bc-id: 1]
+	Node       17 iDof  3 reaction -1.4054e+05    [bc-id: 2]
+
+User time consumed by solution step 3: 26.171 [s]
+
+
+
+Output for time 3.000e+00, solution step number 4
+Reached load level :             1.000000 in 22 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.79401993e-04
+Node        1340 (    1340):
+  dof 1   d  1.72960012e-05
+  dof 2   d  6.51805166e-06
+  dof 3   d -8.96078080e-05
+Node        1341 (    1341):
+  dof 1   d  1.80835020e-05
+  dof 2   d  3.95710913e-06
+  dof 3   d -8.96195213e-05
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  9.3547e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  9.5073e+00    [bc-id: 1]
+	Node        1 iDof  3 reaction  1.8902e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -9.5047e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -9.4585e+00    [bc-id: 1]
+	Node       17 iDof  3 reaction -1.8903e+05    [bc-id: 2]
+
+User time consumed by solution step 4: 23.139 [s]
+
+
+
+Output for time 4.000e+00, solution step number 5
+Reached load level :             1.000000 in 35 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.39202658e-04
+Node        1340 (    1340):
+  dof 1   d  2.81807221e-05
+  dof 2   d  1.05923678e-05
+  dof 3   d -1.19484528e-04
+Node        1341 (    1341):
+  dof 1   d  2.94022491e-05
+  dof 2   d  6.41489130e-06
+  dof 3   d -1.19504853e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.8534e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.5788e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.2259e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -9.1955e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.5731e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.2259e+05    [bc-id: 2]
+
+User time consumed by solution step 5: 32.341 [s]
+
+
+
+Output for time 5.000e+00, solution step number 6
+Reached load level :             1.000000 in 44 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.99003322e-04
+Node        1340 (    1340):
+  dof 1   d  4.14891631e-05
+  dof 2   d  1.55550486e-05
+  dof 3   d -1.49356485e-04
+Node        1341 (    1341):
+  dof 1   d  4.32226782e-05
+  dof 2   d  9.40380231e-06
+  dof 3   d -1.49389077e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.1041e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.2310e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.4590e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.5017e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.2251e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.4591e+05    [bc-id: 2]
+
+User time consumed by solution step 6: 39.826 [s]
+
+
+
+Output for time 6.000e+00, solution step number 7
+Reached load level :             1.000000 in 48 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.58803987e-04
+Node        1340 (    1340):
+  dof 1   d  5.60095980e-05
+  dof 2   d  2.09659580e-05
+  dof 3   d -1.79221265e-04
+Node        1341 (    1341):
+  dof 1   d  5.82960780e-05
+  dof 2   d  1.26643577e-05
+  dof 3   d -1.79270676e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.0560e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.8655e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.6346e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.4812e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.8594e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.6347e+05    [bc-id: 2]
+
+User time consumed by solution step 7: 46.598 [s]
+
+
+
+Output for time 7.000e+00, solution step number 8
+Reached load level :             1.000000 in 50 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.18604651e-04
+Node        1340 (    1340):
+  dof 1   d  7.10962950e-05
+  dof 2   d  2.65773539e-05
+  dof 3   d -2.09083210e-04
+Node        1341 (    1341):
+  dof 1   d  7.39522427e-05
+  dof 2   d  1.60439966e-05
+  dof 3   d -2.09151059e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.6289e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.4631e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.7762e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.0665e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.4572e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.7764e+05    [bc-id: 2]
+
+User time consumed by solution step 8: 45.602 [s]
+
+
+
+Output for time 8.000e+00, solution step number 9
+Reached load level :             1.000000 in 51 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.78405316e-04
+Node        1340 (    1340):
+  dof 1   d  8.65648286e-05
+  dof 2   d  3.23395234e-05
+  dof 3   d -2.38943071e-04
+Node        1341 (    1341):
+  dof 1   d  9.00047938e-05
+  dof 2   d  1.95168177e-05
+  dof 3   d -2.39029467e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.4351e-01    [bc-id: 1]
+	Node        1 iDof  2 reaction  4.0558e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.8947e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.9129e-01    [bc-id: 1]
+	Node       17 iDof  2 reaction -4.0498e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.8949e+05    [bc-id: 2]
+
+User time consumed by solution step 9: 47.399 [s]
+
+
+
+Output for time 9.000e+00, solution step number 10
+Reached load level :             1.000000 in 52 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -5.38205980e-04
+Node        1340 (    1340):
+  dof 1   d  1.02430144e-04
+  dof 2   d  3.82612114e-05
+  dof 3   d -2.68806478e-04
+Node        1341 (    1341):
+  dof 1   d  1.06469938e-04
+  dof 2   d  2.30913642e-05
+  dof 3   d -2.68912496e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.2872e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  4.6433e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  2.9946e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.3386e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -4.6361e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -2.9949e+05    [bc-id: 2]
+
+User time consumed by solution step 10: 49.674 [s]
+
+
+
+Output for time 1.000e+01, solution step number 11
+Reached load level :             1.000000 in 52 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -5.98006645e-04
+Node        1340 (    1340):
+  dof 1   d  1.18525777e-04
+  dof 2   d  4.42797439e-05
+  dof 3   d -2.98667322e-04
+Node        1341 (    1341):
+  dof 1   d  1.23174742e-04
+  dof 2   d  2.67272332e-05
+  dof 3   d -2.98793935e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.0789e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  5.1735e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.0812e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.1427e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -5.1663e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.0814e+05    [bc-id: 2]
+
+User time consumed by solution step 11: 47.023 [s]
+
+
+
+Output for time 1.100e+01, solution step number 12
+Reached load level :             1.000000 in 51 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -6.57807309e-04
+Node        1340 (    1340):
+  dof 1   d  1.34604611e-04
+  dof 2   d  5.03053879e-05
+  dof 3   d -3.28511701e-04
+Node        1341 (    1341):
+  dof 1   d  1.39864725e-04
+  dof 2   d  3.03699864e-05
+  dof 3   d -3.28659459e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.2075e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  5.6320e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.1594e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.2879e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -5.6238e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.1597e+05    [bc-id: 2]
+
+User time consumed by solution step 12: 46.586 [s]
+
+
+
+Output for time 1.200e+01, solution step number 13
+Reached load level :             1.000000 in 51 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -7.17607973e-04
+Node        1340 (    1340):
+  dof 1   d  1.50631071e-04
+  dof 2   d  5.63094590e-05
+  dof 3   d -3.58365769e-04
+Node        1341 (    1341):
+  dof 1   d  1.56498197e-04
+  dof 2   d  3.39992131e-05
+  dof 3   d -3.58534838e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.2211e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  6.1717e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.2312e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.3023e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -6.1639e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.2315e+05    [bc-id: 2]
+
+User time consumed by solution step 13: 51.417 [s]
+
+
+
+Output for time 1.300e+01, solution step number 14
+Reached load level :             1.000000 in 50 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -7.77408638e-04
+Node        1340 (    1340):
+  dof 1   d  1.66525441e-04
+  dof 2   d  6.22668107e-05
+  dof 3   d -3.88206109e-04
+Node        1341 (    1341):
+  dof 1   d  1.72994191e-04
+  dof 2   d  3.76010602e-05
+  dof 3   d -3.88395790e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.8797e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  6.7108e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.2984e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.9744e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -6.7004e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.2988e+05    [bc-id: 2]
+
+User time consumed by solution step 14: 48.256 [s]
+
+
+
+Output for time 1.400e+01, solution step number 15
+Reached load level :             1.000000 in 49 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -8.37209302e-04
+Node        1340 (    1340):
+  dof 1   d  1.82255974e-04
+  dof 2   d  6.81653223e-05
+  dof 3   d -4.18034830e-04
+Node        1341 (    1341):
+  dof 1   d  1.89318977e-04
+  dof 2   d  4.11691790e-05
+  dof 3   d -4.18245907e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.9162e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  7.2652e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.3614e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.0151e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -7.2527e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.3617e+05    [bc-id: 2]
+
+User time consumed by solution step 15: 47.192 [s]
+
+
+
+Output for time 1.500e+01, solution step number 16
+Reached load level :             1.000000 in 48 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -8.97009967e-04
+Node        1340 (    1340):
+  dof 1   d  1.97801736e-04
+  dof 2   d  7.40008680e-05
+  dof 3   d -4.47871923e-04
+Node        1341 (    1341):
+  dof 1   d  2.05452115e-04
+  dof 2   d  4.47012216e-05
+  dof 3   d -4.48104539e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.2548e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  7.9052e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.4212e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.3632e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -7.8898e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.4216e+05    [bc-id: 2]
+
+User time consumed by solution step 16: 42.828 [s]
+
+
+
+Output for time 1.600e+01, solution step number 17
+Reached load level :             1.000000 in 48 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -9.56810631e-04
+Node        1340 (    1340):
+  dof 1   d  2.13168617e-04
+  dof 2   d  7.97738944e-05
+  dof 3   d -4.77729092e-04
+Node        1341 (    1341):
+  dof 1   d  2.21399744e-04
+  dof 2   d  4.81972953e-05
+  dof 3   d -4.77983279e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  9.0189e+00    [bc-id: 1]
+	Node        1 iDof  2 reaction  8.3568e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.4789e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -9.1222e+00    [bc-id: 1]
+	Node       17 iDof  2 reaction -8.3421e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.4793e+05    [bc-id: 2]
+
+User time consumed by solution step 17: 44.209 [s]
+
+
+
+Output for time 1.700e+01, solution step number 18
+Reached load level :             1.000000 in 47 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.01661130e-03
+Node        1340 (    1340):
+  dof 1   d  2.28333658e-04
+  dof 2   d  8.54671958e-05
+  dof 3   d -5.07574616e-04
+Node        1341 (    1341):
+  dof 1   d  2.37137329e-04
+  dof 2   d  5.16430521e-05
+  dof 3   d -5.07850025e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.0114e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  8.7691e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.5352e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.0226e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -8.7517e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.5357e+05    [bc-id: 2]
+
+User time consumed by solution step 18: 40.916 [s]
+
+
+
+Output for time 1.800e+01, solution step number 19
+Reached load level :             1.000000 in 46 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.07641196e-03
+Node        1340 (    1340):
+  dof 1   d  2.43312210e-04
+  dof 2   d  9.10890070e-05
+  dof 3   d -5.37415794e-04
+Node        1341 (    1341):
+  dof 1   d  2.52680830e-04
+  dof 2   d  5.50456186e-05
+  dof 3   d -5.37711856e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.1323e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  9.2776e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.5905e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.1443e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -9.2573e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.5910e+05    [bc-id: 2]
+
+User time consumed by solution step 19: 39.709 [s]
+
+
+
+Output for time 1.900e+01, solution step number 20
+Reached load level :             1.000000 in 45 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.13621262e-03
+Node        1340 (    1340):
+  dof 1   d  2.58105103e-04
+  dof 2   d  9.66433574e-05
+  dof 3   d -5.67259325e-04
+Node        1341 (    1341):
+  dof 1   d  2.68031771e-04
+  dof 2   d  5.84078315e-05
+  dof 3   d -5.67575957e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.3149e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  9.7461e+01    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.6450e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.3281e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -9.7223e+01    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.6455e+05    [bc-id: 2]
+
+User time consumed by solution step 20: 43.203 [s]
+
+
+
+Output for time 2.000e+01, solution step number 21
+Reached load level :             1.000000 in 45 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.19601329e-03
+Node        1340 (    1340):
+  dof 1   d  2.72733603e-04
+  dof 2   d  1.02134704e-04
+  dof 3   d -5.97121579e-04
+Node        1341 (    1341):
+  dof 1   d  2.83211870e-04
+  dof 2   d  6.17309896e-05
+  dof 3   d -5.97458492e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.5648e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.0100e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.6986e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.5778e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.0078e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.6991e+05    [bc-id: 2]
+
+User time consumed by solution step 21: 44.000 [s]
+
+
+
+Output for time 2.100e+01, solution step number 22
+Reached load level :             1.000000 in 44 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.25581395e-03
+Node        1340 (    1340):
+  dof 1   d  2.87172212e-04
+  dof 2   d  1.07555531e-04
+  dof 3   d -6.26972675e-04
+Node        1341 (    1341):
+  dof 1   d  2.98194966e-04
+  dof 2   d  6.50116822e-05
+  dof 3   d -6.27329322e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  1.7700e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.0534e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.7517e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -1.7841e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.0509e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.7522e+05    [bc-id: 2]
+
+User time consumed by solution step 22: 45.305 [s]
+
+
+
+Output for time 2.200e+01, solution step number 23
+Reached load level :             1.000000 in 43 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.31561462e-03
+Node        1340 (    1340):
+  dof 1   d  3.01438197e-04
+  dof 2   d  1.12909681e-04
+  dof 3   d -6.56822548e-04
+Node        1341 (    1341):
+  dof 1   d  3.12998684e-04
+  dof 2   d  6.82512544e-05
+  dof 3   d -6.57198035e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.0218e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.1086e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.8042e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.0371e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.1058e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.8048e+05    [bc-id: 2]
+
+User time consumed by solution step 23: 46.275 [s]
+
+
+
+Output for time 2.300e+01, solution step number 24
+Reached load level :             1.000000 in 43 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.37541528e-03
+Node        1340 (    1340):
+  dof 1   d  3.15550486e-04
+  dof 2   d  1.18205210e-04
+  dof 3   d -6.86688877e-04
+Node        1341 (    1341):
+  dof 1   d  3.27642663e-04
+  dof 2   d  7.14552101e-05
+  dof 3   d -6.87082587e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.2240e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.1631e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.8560e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.2388e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.1604e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.8565e+05    [bc-id: 2]
+
+User time consumed by solution step 24: 46.080 [s]
+
+
+
+Output for time 2.400e+01, solution step number 25
+Reached load level :             1.000000 in 42 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.43521595e-03
+Node        1340 (    1340):
+  dof 1   d  3.29483326e-04
+  dof 2   d  1.23429541e-04
+  dof 3   d -7.16540353e-04
+Node        1341 (    1341):
+  dof 1   d  3.42100166e-04
+  dof 2   d  7.46147493e-05
+  dof 3   d -7.16951775e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.4193e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.2145e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.9075e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.4352e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.2116e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.9080e+05    [bc-id: 2]
+
+User time consumed by solution step 25: 42.911 [s]
+
+
+
+Output for time 2.500e+01, solution step number 26
+Reached load level :             1.000000 in 41 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.49501661e-03
+Node        1340 (    1340):
+  dof 1   d  3.43252093e-04
+  dof 2   d  1.28590286e-04
+  dof 3   d -7.46388412e-04
+Node        1341 (    1341):
+  dof 1   d  3.56387392e-04
+  dof 2   d  7.77348182e-05
+  dof 3   d -7.46817220e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.6596e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.2584e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  3.9584e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.6766e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.2553e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -3.9590e+05    [bc-id: 2]
+
+User time consumed by solution step 26: 44.969 [s]
+
+
+
+Output for time 2.600e+01, solution step number 27
+Reached load level :             1.000000 in 41 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.55481728e-03
+Node        1340 (    1340):
+  dof 1   d  3.56879444e-04
+  dof 2   d  1.33697383e-04
+  dof 3   d -7.76257285e-04
+Node        1341 (    1341):
+  dof 1   d  3.70527778e-04
+  dof 2   d  8.08223165e-05
+  dof 3   d -7.76703030e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  2.9140e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.2955e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.0088e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -2.9303e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.2926e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.0094e+05    [bc-id: 2]
+
+User time consumed by solution step 27: 47.154 [s]
+
+
+
+Output for time 2.700e+01, solution step number 28
+Reached load level :             1.000000 in 40 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.61461794e-03
+Node        1340 (    1340):
+  dof 1   d  3.70334110e-04
+  dof 2   d  1.38741008e-04
+  dof 3   d -8.06108750e-04
+Node        1341 (    1341):
+  dof 1   d  3.84489220e-04
+  dof 2   d  8.38718161e-05
+  dof 3   d -8.06571085e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.1251e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.3333e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.0590e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.1426e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.3302e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.0595e+05    [bc-id: 2]
+
+User time consumed by solution step 28: 40.687 [s]
+
+
+
+Output for time 2.800e+01, solution step number 29
+Reached load level :             1.000000 in 39 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.67441860e-03
+Node        1340 (    1340):
+  dof 1   d  3.83634741e-04
+  dof 2   d  1.43726150e-04
+  dof 3   d -8.35955040e-04
+Node        1341 (    1341):
+  dof 1   d  3.98290911e-04
+  dof 2   d  8.68857100e-05
+  dof 3   d -8.36433667e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.3441e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.3776e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.1087e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.3626e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.3742e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.1094e+05    [bc-id: 2]
+
+User time consumed by solution step 29: 44.997 [s]
+
+
+
+Output for time 2.900e+01, solution step number 30
+Reached load level :             1.000000 in 39 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.73421927e-03
+Node        1340 (    1340):
+  dof 1   d  3.96805646e-04
+  dof 2   d  1.48663136e-04
+  dof 3   d -8.65822507e-04
+Node        1341 (    1341):
+  dof 1   d  4.11957851e-04
+  dof 2   d  8.98707908e-05
+  dof 3   d -8.66317067e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.5456e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.4166e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.1579e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.5631e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.4133e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.1585e+05    [bc-id: 2]
+
+User time consumed by solution step 30: 42.606 [s]
+
+
+
+Output for time 3.000e+01, solution step number 31
+Reached load level :             1.000000 in 38 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.79401993e-03
+Node        1340 (    1340):
+  dof 1   d  4.09811740e-04
+  dof 2   d  1.53539555e-04
+  dof 3   d -8.95672717e-04
+Node        1341 (    1341):
+  dof 1   d  4.25454022e-04
+  dof 2   d  9.28197576e-05
+  dof 3   d -8.96182877e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.7011e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.4603e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.2070e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.7199e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.4570e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.2077e+05    [bc-id: 2]
+
+User time consumed by solution step 31: 45.760 [s]
+
+
+
+Output for time 3.100e+01, solution step number 32
+Reached load level :             1.000000 in 38 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.85382060e-03
+Node        1340 (    1340):
+  dof 1   d  4.22691816e-04
+  dof 2   d  1.58370406e-04
+  dof 3   d -9.25545163e-04
+Node        1341 (    1341):
+  dof 1   d  4.38819665e-04
+  dof 2   d  9.57416738e-05
+  dof 3   d -9.26070476e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.8350e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.5078e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.2555e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.8522e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.5047e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.2561e+05    [bc-id: 2]
+
+User time consumed by solution step 32: 38.506 [s]
+
+
+
+Output for time 3.200e+01, solution step number 33
+Reached load level :             1.000000 in 37 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.91362126e-03
+Node        1340 (    1340):
+  dof 1   d  4.35413727e-04
+  dof 2   d  1.63139624e-04
+  dof 3   d -9.55398312e-04
+Node        1341 (    1341):
+  dof 1   d  4.52021235e-04
+  dof 2   d  9.86254003e-05
+  dof 3   d -9.55938425e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  3.9284e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.5582e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.3039e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -3.9458e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.5549e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.3046e+05    [bc-id: 2]
+
+User time consumed by solution step 33: 38.821 [s]
+
+
+
+Output for time 3.300e+01, solution step number 34
+Reached load level :             1.000000 in 37 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -1.97342193e-03
+Node        1340 (    1340):
+  dof 1   d  4.48014911e-04
+  dof 2   d  1.67865220e-04
+  dof 3   d -9.85273750e-04
+Node        1341 (    1341):
+  dof 1   d  4.65097935e-04
+  dof 2   d  1.01482997e-04
+  dof 3   d -9.85828182e-04
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.0206e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.6070e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.3518e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.0372e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.6039e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.3525e+05    [bc-id: 2]
+
+User time consumed by solution step 34: 43.782 [s]
+
+
+
+Output for time 3.400e+01, solution step number 35
+Reached load level :             1.000000 in 36 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.03322259e-03
+Node        1340 (    1340):
+  dof 1   d  4.60462851e-04
+  dof 2   d  1.72530007e-04
+  dof 3   d -1.01512890e-03
+Node        1341 (    1341):
+  dof 1   d  4.78015603e-04
+  dof 2   d  1.04302366e-04
+  dof 3   d -1.01569723e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.0946e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.6582e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.3997e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.1116e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.6552e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.4004e+05    [bc-id: 2]
+
+User time consumed by solution step 35: 40.519 [s]
+
+
+
+Output for time 3.500e+01, solution step number 36
+Reached load level :             1.000000 in 36 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.09302326e-03
+Node        1340 (    1340):
+  dof 1   d  4.72798389e-04
+  dof 2   d  1.77152722e-04
+  dof 3   d -1.04500818e-03
+Node        1341 (    1341):
+  dof 1   d  4.90816690e-04
+  dof 2   d  1.07096147e-04
+  dof 3   d -1.04559007e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.1946e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.7102e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.4469e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.2101e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.7075e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.4476e+05    [bc-id: 2]
+
+User time consumed by solution step 36: 40.606 [s]
+
+
+
+Output for time 3.600e+01, solution step number 37
+Reached load level :             1.000000 in 35 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.15282392e-03
+Node        1340 (    1340):
+  dof 1   d  4.84985317e-04
+  dof 2   d  1.81719764e-04
+  dof 3   d -1.07486812e-03
+Node        1341 (    1341):
+  dof 1   d  5.03463726e-04
+  dof 2   d  1.09856196e-04
+  dof 3   d -1.07546324e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.2662e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.7660e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.4942e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.2829e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.7635e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.4950e+05    [bc-id: 2]
+
+User time consumed by solution step 37: 35.881 [s]
+
+
+
+Output for time 3.700e+01, solution step number 38
+Reached load level :             1.000000 in 35 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.21262458e-03
+Node        1340 (    1340):
+  dof 1   d  4.97066556e-04
+  dof 2   d  1.86248590e-04
+  dof 3   d -1.10475227e-03
+Node        1341 (    1341):
+  dof 1   d  5.16001016e-04
+  dof 2   d  1.12593638e-04
+  dof 3   d -1.10536024e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.3562e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.8173e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.5409e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.3713e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.8152e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.5417e+05    [bc-id: 2]
+
+User time consumed by solution step 38: 37.394 [s]
+
+
+
+Output for time 3.800e+01, solution step number 39
+Reached load level :             1.000000 in 34 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.27242525e-03
+Node        1340 (    1340):
+  dof 1   d  5.09003859e-04
+  dof 2   d  1.90720875e-04
+  dof 3   d -1.13461676e-03
+Node        1341 (    1341):
+  dof 1   d  5.28389002e-04
+  dof 2   d  1.15295693e-04
+  dof 3   d -1.13523736e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.4713e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.8698e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.5877e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.4856e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.8680e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.5886e+05    [bc-id: 2]
+
+User time consumed by solution step 39: 37.419 [s]
+
+
+
+Output for time 3.900e+01, solution step number 40
+Reached load level :             1.000000 in 34 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.33222591e-03
+Node        1340 (    1340):
+  dof 1   d  5.20840255e-04
+  dof 2   d  1.95156974e-04
+  dof 3   d -1.16450694e-03
+Node        1341 (    1341):
+  dof 1   d  5.40672489e-04
+  dof 2   d  1.17976318e-04
+  dof 3   d -1.16513980e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.6039e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.9256e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.6339e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.6168e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.9241e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.6347e+05    [bc-id: 2]
+
+User time consumed by solution step 40: 36.079 [s]
+
+
+
+Output for time 4.000e+01, solution step number 41
+Reached load level :             1.000000 in 34 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.39202658e-03
+Node        1340 (    1340):
+  dof 1   d  5.32560625e-04
+  dof 2   d  1.99549020e-04
+  dof 3   d -1.19440880e-03
+Node        1341 (    1341):
+  dof 1   d  5.52835649e-04
+  dof 2   d  1.20630117e-04
+  dof 3   d -1.19505358e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.7709e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  1.9845e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.6797e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.7826e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -1.9834e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.6806e+05    [bc-id: 2]
+
+User time consumed by solution step 41: 38.676 [s]
+
+
+
+Output for time 4.100e+01, solution step number 42
+Reached load level :             1.000000 in 33 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.45182724e-03
+Node        1340 (    1340):
+  dof 1   d  5.44145813e-04
+  dof 2   d  2.03888605e-04
+  dof 3   d -1.22428624e-03
+Node        1341 (    1341):
+  dof 1   d  5.64858722e-04
+  dof 2   d  1.23251454e-04
+  dof 3   d -1.22494273e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  4.9287e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.0422e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.7259e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -4.9406e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.0417e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.7268e+05    [bc-id: 2]
+
+User time consumed by solution step 42: 37.435 [s]
+
+
+
+Output for time 4.200e+01, solution step number 43
+Reached load level :             1.000000 in 33 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.51162791e-03
+Node        1340 (    1340):
+  dof 1   d  5.55638041e-04
+  dof 2   d  2.08195681e-04
+  dof 3   d -1.25418787e-03
+Node        1341 (    1341):
+  dof 1   d  5.76785634e-04
+  dof 2   d  1.25853873e-04
+  dof 3   d -1.25485577e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.0864e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.0970e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.7713e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.0961e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.0968e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.7722e+05    [bc-id: 2]
+
+User time consumed by solution step 43: 37.231 [s]
+
+
+
+Output for time 4.300e+01, solution step number 44
+Reached load level :             1.000000 in 33 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.57142857e-03
+Node        1340 (    1340):
+  dof 1   d  5.67020749e-04
+  dof 2   d  2.12461166e-04
+  dof 3   d -1.28410060e-03
+Node        1341 (    1341):
+  dof 1   d  5.88599037e-04
+  dof 2   d  1.28430605e-04
+  dof 3   d -1.28477964e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.2570e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.1525e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.8165e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.2654e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.1527e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.8174e+05    [bc-id: 2]
+
+User time consumed by solution step 44: 37.556 [s]
+
+
+
+Output for time 4.400e+01, solution step number 45
+Reached load level :             1.000000 in 32 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.63122924e-03
+Node        1340 (    1340):
+  dof 1   d  5.78276121e-04
+  dof 2   d  2.16677410e-04
+  dof 3   d -1.31398744e-03
+Node        1341 (    1341):
+  dof 1   d  6.00280417e-04
+  dof 2   d  1.30976873e-04
+  dof 3   d -1.31467758e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.4298e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.2086e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.8620e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.4388e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.2096e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.8629e+05    [bc-id: 2]
+
+User time consumed by solution step 45: 35.486 [s]
+
+
+
+Output for time 4.500e+01, solution step number 46
+Reached load level :             1.000000 in 32 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.69102990e-03
+Node        1340 (    1340):
+  dof 1   d  5.89445169e-04
+  dof 2   d  2.20864071e-04
+  dof 3   d -1.34389896e-03
+Node        1341 (    1341):
+  dof 1   d  6.11872473e-04
+  dof 2   d  1.33506134e-04
+  dof 3   d -1.34459984e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.5854e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.2680e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.9068e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.5927e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.2692e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.9077e+05    [bc-id: 2]
+
+User time consumed by solution step 46: 36.704 [s]
+
+
+
+Output for time 4.600e+01, solution step number 47
+Reached load level :             1.000000 in 32 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.75083056e-03
+Node        1340 (    1340):
+  dof 1   d  6.00512288e-04
+  dof 2   d  2.25013591e-04
+  dof 3   d -1.37382243e-03
+Node        1341 (    1341):
+  dof 1   d  6.23358963e-04
+  dof 2   d  1.36013269e-04
+  dof 3   d -1.37453376e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.7657e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.3284e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.9514e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.7723e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.3300e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.9523e+05    [bc-id: 2]
+
+User time consumed by solution step 47: 33.993 [s]
+
+
+
+Output for time 4.700e+01, solution step number 48
+Reached load level :             1.000000 in 32 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.81063123e-03
+Node        1340 (    1340):
+  dof 1   d  6.11478853e-04
+  dof 2   d  2.29125530e-04
+  dof 3   d -1.40375336e-03
+Node        1341 (    1341):
+  dof 1   d  6.34741256e-04
+  dof 2   d  1.38497577e-04
+  dof 3   d -1.40447482e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  5.9274e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.3876e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  4.9958e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -5.9326e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.3897e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -4.9967e+05    [bc-id: 2]
+
+User time consumed by solution step 48: 34.709 [s]
+
+
+
+Output for time 4.800e+01, solution step number 49
+Reached load level :             1.000000 in 32 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.87043189e-03
+Node        1340 (    1340):
+  dof 1   d  6.22346809e-04
+  dof 2   d  2.33199941e-04
+  dof 3   d -1.43369038e-03
+Node        1341 (    1341):
+  dof 1   d  6.46021325e-04
+  dof 2   d  1.40958762e-04
+  dof 3   d -1.43442164e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.0678e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.4469e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.0400e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.0714e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.4494e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.0409e+05    [bc-id: 2]
+
+User time consumed by solution step 49: 33.001 [s]
+
+
+
+Output for time 4.900e+01, solution step number 50
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.93023256e-03
+Node        1340 (    1340):
+  dof 1   d  6.33100094e-04
+  dof 2   d  2.37230680e-04
+  dof 3   d -1.46359940e-03
+Node        1341 (    1341):
+  dof 1   d  6.57182532e-04
+  dof 2   d  1.43393126e-04
+  dof 3   d -1.46434038e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.1716e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.5043e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.0846e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.1759e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.5078e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.0855e+05    [bc-id: 2]
+
+User time consumed by solution step 50: 33.977 [s]
+
+
+
+Output for time 5.000e+01, solution step number 51
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -2.99003322e-03
+Node        1340 (    1340):
+  dof 1   d  6.43775987e-04
+  dof 2   d  2.41233849e-04
+  dof 3   d -1.49353189e-03
+Node        1341 (    1341):
+  dof 1   d  6.68263575e-04
+  dof 2   d  1.45811183e-04
+  dof 3   d -1.49428211e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.2616e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.5631e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.1284e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.2661e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.5670e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.1294e+05    [bc-id: 2]
+
+User time consumed by solution step 51: 33.752 [s]
+
+
+
+Output for time 5.100e+01, solution step number 52
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.04983389e-03
+Node        1340 (    1340):
+  dof 1   d  6.54361331e-04
+  dof 2   d  2.45202367e-04
+  dof 3   d -1.52347655e-03
+Node        1341 (    1341):
+  dof 1   d  6.79250717e-04
+  dof 2   d  1.48208033e-04
+  dof 3   d -1.52423558e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.3565e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.6199e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.1721e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.3569e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.6239e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.1731e+05    [bc-id: 2]
+
+User time consumed by solution step 52: 34.302 [s]
+
+
+
+Output for time 5.200e+01, solution step number 53
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.10963455e-03
+Node        1340 (    1340):
+  dof 1   d  6.64856249e-04
+  dof 2   d  2.49137983e-04
+  dof 3   d -1.55342930e-03
+Node        1341 (    1341):
+  dof 1   d  6.90144168e-04
+  dof 2   d  1.50585406e-04
+  dof 3   d -1.55419681e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.4956e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.6831e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.2156e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.4932e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.6871e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.2166e+05    [bc-id: 2]
+
+User time consumed by solution step 53: 35.357 [s]
+
+
+
+Output for time 5.300e+01, solution step number 54
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.16943522e-03
+Node        1340 (    1340):
+  dof 1   d  6.75262679e-04
+  dof 2   d  2.53042474e-04
+  dof 3   d -1.58338778e-03
+Node        1341 (    1341):
+  dof 1   d  7.00946004e-04
+  dof 2   d  1.52944795e-04
+  dof 3   d -1.58416341e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.6335e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.7485e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.2590e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.6267e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.7529e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.2599e+05    [bc-id: 2]
+
+User time consumed by solution step 54: 33.929 [s]
+
+
+
+Output for time 5.400e+01, solution step number 55
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.22923588e-03
+Node        1340 (    1340):
+  dof 1   d  6.85583292e-04
+  dof 2   d  2.56915028e-04
+  dof 3   d -1.61335123e-03
+Node        1341 (    1341):
+  dof 1   d  7.11658911e-04
+  dof 2   d  1.55285034e-04
+  dof 3   d -1.61413458e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  6.8213e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.8126e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.3022e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -6.8107e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.8173e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.3031e+05    [bc-id: 2]
+
+User time consumed by solution step 55: 35.639 [s]
+
+
+
+Output for time 5.500e+01, solution step number 56
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.28903654e-03
+Node        1340 (    1340):
+  dof 1   d  6.95819916e-04
+  dof 2   d  2.60756907e-04
+  dof 3   d -1.64331937e-03
+Node        1341 (    1341):
+  dof 1   d  7.22284770e-04
+  dof 2   d  1.57607118e-04
+  dof 3   d -1.64411012e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.0149e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.8778e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.3452e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.0006e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.8826e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.3461e+05    [bc-id: 2]
+
+User time consumed by solution step 56: 34.814 [s]
+
+
+
+Output for time 5.600e+01, solution step number 57
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.34883721e-03
+Node        1340 (    1340):
+  dof 1   d  7.05974051e-04
+  dof 2   d  2.64569366e-04
+  dof 3   d -1.67329284e-03
+Node        1341 (    1341):
+  dof 1   d  7.32825170e-04
+  dof 2   d  1.59912024e-04
+  dof 3   d -1.67409071e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.2132e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  2.9462e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.3881e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.1954e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -2.9510e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.3890e+05    [bc-id: 2]
+
+User time consumed by solution step 57: 36.013 [s]
+
+
+
+Output for time 5.700e+01, solution step number 58
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.40863787e-03
+Node        1340 (    1340):
+  dof 1   d  7.16048311e-04
+  dof 2   d  2.68351853e-04
+  dof 3   d -1.70327119e-03
+Node        1341 (    1341):
+  dof 1   d  7.43282751e-04
+  dof 2   d  1.62198854e-04
+  dof 3   d -1.70407582e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.4041e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.0126e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.4309e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.3835e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.0180e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.4318e+05    [bc-id: 2]
+
+User time consumed by solution step 58: 34.666 [s]
+
+
+
+Output for time 5.800e+01, solution step number 59
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.46843854e-03
+Node        1340 (    1340):
+  dof 1   d  7.26043574e-04
+  dof 2   d  2.72104838e-04
+  dof 3   d -1.73325375e-03
+Node        1341 (    1341):
+  dof 1   d  7.53658476e-04
+  dof 2   d  1.64467754e-04
+  dof 3   d -1.73406478e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.5759e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.0797e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.4736e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.5551e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.0853e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.4744e+05    [bc-id: 2]
+
+User time consumed by solution step 59: 41.002 [s]
+
+
+
+Output for time 5.900e+01, solution step number 60
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.52823920e-03
+Node        1340 (    1340):
+  dof 1   d  7.35949739e-04
+  dof 2   d  2.75824988e-04
+  dof 3   d -1.76320690e-03
+Node        1341 (    1341):
+  dof 1   d  7.63941923e-04
+  dof 2   d  1.66716838e-04
+  dof 3   d -1.76402432e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.7033e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.1438e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.5167e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.6823e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.1511e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.5177e+05    [bc-id: 2]
+
+User time consumed by solution step 60: 32.858 [s]
+
+
+
+Output for time 6.000e+01, solution step number 61
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.58803987e-03
+Node        1340 (    1340):
+  dof 1   d  7.45800262e-04
+  dof 2   d  2.79527265e-04
+  dof 3   d -1.79321236e-03
+Node        1341 (    1341):
+  dof 1   d  7.74167856e-04
+  dof 2   d  1.68956190e-04
+  dof 3   d -1.79403534e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.8523e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.2121e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.5585e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.8254e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.2186e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.5594e+05    [bc-id: 2]
+
+User time consumed by solution step 61: 34.411 [s]
+
+
+
+Output for time 6.100e+01, solution step number 62
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.64784053e-03
+Node        1340 (    1340):
+  dof 1   d  7.55557357e-04
+  dof 2   d  2.83191606e-04
+  dof 3   d -1.82317961e-03
+Node        1341 (    1341):
+  dof 1   d  7.84296889e-04
+  dof 2   d  1.71171357e-04
+  dof 3   d -1.82400827e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  7.9954e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.2725e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.6014e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -7.9681e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.2807e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.6023e+05    [bc-id: 2]
+
+User time consumed by solution step 62: 36.820 [s]
+
+
+
+Output for time 6.200e+01, solution step number 63
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.70764120e-03
+Node        1340 (    1340):
+  dof 1   d  7.65260329e-04
+  dof 2   d  2.86839171e-04
+  dof 3   d -1.85319649e-03
+Node        1341 (    1341):
+  dof 1   d  7.94369956e-04
+  dof 2   d  1.73377770e-04
+  dof 3   d -1.85403000e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.1242e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.3357e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.6429e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.0963e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.3432e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.6438e+05    [bc-id: 2]
+
+User time consumed by solution step 63: 56.419 [s]
+
+
+
+Output for time 6.300e+01, solution step number 64
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.76744186e-03
+Node        1340 (    1340):
+  dof 1   d  7.74876696e-04
+  dof 2   d  2.90451525e-04
+  dof 3   d -1.88317447e-03
+Node        1341 (    1341):
+  dof 1   d  8.04353176e-04
+  dof 2   d  1.75561675e-04
+  dof 3   d -1.88401305e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.2293e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.3893e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.6856e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.1998e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.3988e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.6865e+05    [bc-id: 2]
+
+User time consumed by solution step 64: 34.384 [s]
+
+
+
+Output for time 6.400e+01, solution step number 65
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.82724252e-03
+Node        1340 (    1340):
+  dof 1   d  7.84432143e-04
+  dof 2   d  2.94042110e-04
+  dof 3   d -1.91316795e-03
+Node        1341 (    1341):
+  dof 1   d  8.14273321e-04
+  dof 2   d  1.77732608e-04
+  dof 3   d -1.91401117e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.3209e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.4434e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.7276e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.2895e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.4535e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.7285e+05    [bc-id: 2]
+
+User time consumed by solution step 65: 35.497 [s]
+
+
+
+Output for time 6.500e+01, solution step number 66
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.88704319e-03
+Node        1340 (    1340):
+  dof 1   d  7.93925601e-04
+  dof 2   d  2.97612133e-04
+  dof 3   d -1.94320299e-03
+Node        1341 (    1341):
+  dof 1   d  8.24129401e-04
+  dof 2   d  1.79892045e-04
+  dof 3   d -1.94405018e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.4022e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.5029e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.7688e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.3686e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.5117e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.7697e+05    [bc-id: 2]
+
+User time consumed by solution step 66: 40.730 [s]
+
+
+
+Output for time 6.600e+01, solution step number 67
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -3.94684385e-03
+Node        1340 (    1340):
+  dof 1   d  8.03341574e-04
+  dof 2   d  3.01151010e-04
+  dof 3   d -1.97319556e-03
+Node        1341 (    1341):
+  dof 1   d  8.33905094e-04
+  dof 2   d  1.82031680e-04
+  dof 3   d -1.97404706e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.4679e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.5527e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.8112e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.4314e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.5632e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.8121e+05    [bc-id: 2]
+
+User time consumed by solution step 67: 38.444 [s]
+
+
+
+Output for time 6.700e+01, solution step number 68
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.00664452e-03
+Node        1340 (    1340):
+  dof 1   d  8.12704763e-04
+  dof 2   d  3.04672393e-04
+  dof 3   d -2.00323133e-03
+Node        1341 (    1341):
+  dof 1   d  8.43626154e-04
+  dof 2   d  1.84161648e-04
+  dof 3   d -2.00408644e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.5448e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.6131e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.8523e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.5058e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.6225e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.8531e+05    [bc-id: 2]
+
+User time consumed by solution step 68: 48.363 [s]
+
+
+
+Output for time 6.800e+01, solution step number 69
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.06644518e-03
+Node        1340 (    1340):
+  dof 1   d  8.21996683e-04
+  dof 2   d  3.08162994e-04
+  dof 3   d -2.03322768e-03
+Node        1341 (    1341):
+  dof 1   d  8.53273150e-04
+  dof 2   d  1.86271367e-04
+  dof 3   d -2.03408677e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.5937e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.6650e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.8945e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.5508e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.6762e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.8954e+05    [bc-id: 2]
+
+User time consumed by solution step 69: 31.057 [s]
+
+
+
+Output for time 6.900e+01, solution step number 70
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.12624585e-03
+Node        1340 (    1340):
+  dof 1   d  8.31234942e-04
+  dof 2   d  3.11636149e-04
+  dof 3   d -2.06326740e-03
+Node        1341 (    1341):
+  dof 1   d  8.62864658e-04
+  dof 2   d  1.88371574e-04
+  dof 3   d -2.06412969e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.6580e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.7281e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.9354e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.6139e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.7381e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.9362e+05    [bc-id: 2]
+
+User time consumed by solution step 70: 32.640 [s]
+
+
+
+Output for time 7.000e+01, solution step number 71
+Reached load level :             1.000000 in 30 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.18604651e-03
+Node        1340 (    1340):
+  dof 1   d  8.40406228e-04
+  dof 2   d  3.15081330e-04
+  dof 3   d -2.09326911e-03
+Node        1341 (    1341):
+  dof 1   d  8.72386655e-04
+  dof 2   d  1.90453571e-04
+  dof 3   d -2.09413488e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.7032e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.7793e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  5.9774e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.6563e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.7912e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -5.9783e+05    [bc-id: 2]
+
+User time consumed by solution step 71: 30.883 [s]
+
+
+
+Output for time 7.100e+01, solution step number 72
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.24584718e-03
+Node        1340 (    1340):
+  dof 1   d  8.49524652e-04
+  dof 2   d  3.18509646e-04
+  dof 3   d -2.12331307e-03
+Node        1341 (    1341):
+  dof 1   d  8.81854011e-04
+  dof 2   d  1.92526542e-04
+  dof 3   d -2.12418153e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.7294e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.8388e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  6.0182e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.6825e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.8495e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -6.0190e+05    [bc-id: 2]
+
+User time consumed by solution step 72: 35.392 [s]
+
+
+
+Output for time 7.200e+01, solution step number 73
+Reached load level :             1.000000 in 31 iterations
+
+
+Quasi reaction table:
+
+  node  dof            force
+============================
+
+
+DofManager output:
+------------------
+Node           1 (       1):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d  0.00000000e+00
+Node          17 (      17):
+  dof 1   d  0.00000000e+00
+  dof 2   d  0.00000000e+00
+  dof 3   d -4.30564784e-03
+Node        1340 (    1340):
+  dof 1   d  8.58581450e-04
+  dof 2   d  3.21914611e-04
+  dof 3   d -2.15334891e-03
+Node        1341 (    1341):
+  dof 1   d  8.91257531e-04
+  dof 2   d  1.94585074e-04
+  dof 3   d -2.15421998e-03
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+	Node        1 iDof  1 reaction  8.7888e+01    [bc-id: 1]
+	Node        1 iDof  2 reaction  3.8885e+02    [bc-id: 1]
+	Node        1 iDof  3 reaction  6.0595e+05    [bc-id: 1]
+	Node       17 iDof  1 reaction -8.7395e+01    [bc-id: 1]
+	Node       17 iDof  2 reaction -3.8997e+02    [bc-id: 1]
+	Node       17 iDof  3 reaction -6.0603e+05    [bc-id: 2]
