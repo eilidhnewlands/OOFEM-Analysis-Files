@@ -1,0 +1,15 @@
+#2D Mesh input
+#t3d -X -d 0.005 -p 8 -i mesh.in -o mesh.out
+
+#Concrete
+vertex 1 xyz 0.0 0.0 0.0 size def 
+vertex 2 xyz 0.05 0.0 0.0 size def 
+vertex 3 xyz 0.05 0.2 0.0 size def 
+vertex 4 xyz 0.0 0.2 0.0 size def 
+
+curve 1 order 2 vertex 1 2 size def 
+curve 2 order 2 vertex 2 3 size def 
+curve 3 order 2 vertex 3 4 size def 
+curve 4 order 2 vertex 4 1 size def 
+
+surface 1 curve 1 2 3 4 size def 
